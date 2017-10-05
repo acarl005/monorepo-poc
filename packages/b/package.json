@@ -1,6 +1,6 @@
 {
   "name": "@stem/b",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "b",
   "main": "index.js",
   "author": "Andrew Carlson <acarl005@g.ucla.edu>",
@@ -10,7 +10,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@stem/a": "1.0.0",
+    "@stem/a": "1.0.4",
     "chalk": "^2.1.0"
   }
 }
