@@ -1,7 +1,7 @@
 {
-  "name": "@stem/b",
+  "name": "@stem/c",
   "version": "1.0.4",
-  "description": "b",
+  "description": "c",
   "main": "dist/index.js",
   "author": "Andrew Carlson <acarl005@g.ucla.edu>",
   "scripts": {
