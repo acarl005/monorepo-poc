@@ -1,0 +1,16 @@
+{
+  "name": "@stem/b",
+  "version": "1.0.0",
+  "description": "b",
+  "main": "index.js",
+  "author": "Andrew Carlson <acarl005@g.ucla.edu>",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "babel --out-dir dist src",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@stem/a": "1.0.0",
+    "chalk": "^2.1.0"
+  }
+}
