@@ -222,6 +222,16 @@ We didn't actually make changes to `parent-1` or `parent-2` source code, but we 
 
 Finally, this command also published all affected packages to NPM, created Git tags, and pushed one new commit with the version bump to GitHub (along with the tags).
 
+## Development workflow on an existing mono-repo
+
+If a mono-repo is already set up, all you really have to worry about in your workflow is the following:
+
+1. When you install your node modules: `yarn`. That isn't really a change unless you are using `npm install` instead.
+1. Make your changes and commit them.
+1. Pushing changes: `lerna publish`
+
+There might be some build and start commands somewhere in there.
+
 ## Pros
 
 - [X] **Better workflow:** Easier to run and test your changes when deving across multiple packages.
