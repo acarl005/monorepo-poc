@@ -227,6 +227,7 @@ Finally, this command also published all affected packages to NPM, created Git t
 If a mono-repo is already set up, all you really have to worry about in your workflow is the following:
 
 1. When you install your node modules: `yarn`. That isn't really a change unless you are using `npm install` instead.
+1. You can use `lerna run <command>` to trigger `npm run <command>` in each package, e.g. `lerna run build` will build all packages.
 1. Make your changes and commit them.
 1. Pushing changes: `lerna publish`
 
