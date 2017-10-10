@@ -86,6 +86,7 @@ For this example, suppose we have packages `child`, `parent-1`, and `parent-2`.
 
 ```
 📂 your-mono
+├──📂 .git
 ├──📂 packages
 │  ├──📂 child
 │  │  └──package.json
