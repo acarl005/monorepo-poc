@@ -5,7 +5,7 @@
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "lerna": "^2.3.1"
+    "@stem/lerna": "^2.4.0-1"
   },
   "scripts": {
     "publish": "lerna publish",
