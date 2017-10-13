@@ -1,0 +1,19 @@
+{
+  "name": "@stem/d",
+  "version": "1.0.8",
+  "description": "d",
+  "main": "dist/index.js",
+  "author": "Andrew Carlson <acarl005@g.ucla.edu>",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "babel --out-dir dist src",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "chalk": "^2.0.0"
+  }
+}
