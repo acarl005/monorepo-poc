@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm run clean && babel --out-dir dist src"
+    "build": "npm run clean && babel --out-dir dist src",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "chalk": "^2.1.0"
