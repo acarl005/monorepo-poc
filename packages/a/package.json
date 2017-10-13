@@ -1,6 +1,6 @@
 {
   "name": "@stem/a",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "a",
   "main": "dist/index.js",
   "author": "Andrew Carlson <acarl005@g.ucla.edu>",
