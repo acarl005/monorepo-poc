@@ -1,6 +1,6 @@
 {
   "name": "@stem/b",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "b",
   "main": "dist/index.js",
   "author": "Andrew Carlson <acarl005@g.ucla.edu>",
@@ -14,7 +14,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "@stem/a": "^1.0.13",
+    "@stem/a": "^1.0.15",
     "chalk": "^2.1.0"
   }
 }
